@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>496</width>
-    <height>736</height>
+    <width>501</width>
+    <height>756</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -19,7 +19,7 @@
      <x>0</x>
      <y>0</y>
      <width>501</width>
-     <height>651</height>
+     <height>701</height>
     </rect>
    </property>
    <layout class="QVBoxLayout" name="verticalLayout">
@@ -45,16 +45,37 @@
    <property name="geometry">
     <rect>
      <x>0</x>
-     <y>650</y>
+     <y>700</y>
      <width>501</width>
-     <height>81</height>
+     <height>51</height>
     </rect>
    </property>
    <layout class="QHBoxLayout" name="horizontalLayout">
     <item>
      <widget class="QPushButton" name="pushButton">
       <property name="text">
-       <string>PushButton</string>
+       <string>Reflash</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="text">
+       <string>Unlock</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="Btn_return">
+      <property name="text">
+       <string>return</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="btn_home">
+      <property name="text">
+       <string>Home</string>
       </property>
      </widget>
     </item>

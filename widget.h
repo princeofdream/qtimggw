@@ -15,10 +15,19 @@ class Widget : public QWidget
 public:
     explicit Widget(QWidget *parent = 0);
     ~Widget();
-    void load_image();
 
 private slots:
     void on_pushButton_clicked();
+
+    void on_pushButton_2_clicked();
+
+    void on_Btn_home_clicked();
+
+    void on_Btn_return_clicked();
+
+    void get_android_screen();
+
+    void reflash_android_screen();
 
 private:
     Ui::Widget *ui;

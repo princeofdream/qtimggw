@@ -3,6 +3,19 @@
 
 #include <QWidget>
 #include <QDebug>
+#include <QFileDialog>
+#include <QProcess>
+#include <QCursor>
+#include <QPoint>
+#include <QGraphicsItem>
+#include <QPainter>
+#include <QRectF>
+#include <QPixmap>
+#include <QtGui>
+#include <QGraphicsScene>
+#include <QGraphicsView>
+#include <QtGui/QPainter>
+#include <QThread>
 
 namespace Ui {
 class Widget;
@@ -29,7 +42,14 @@ private slots:
 
     void reflash_android_screen();
 
+    void on_tap_clicked();
+
+    void on_swip_left_clicked();
+
+    void on_swip_right_clicked();
+
 private:
+    QThread thr_label;
     Ui::Widget *ui;
 };
 

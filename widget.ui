@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>501</width>
-    <height>820</height>
+    <width>638</width>
+    <height>904</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -18,8 +18,8 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>501</width>
-     <height>741</height>
+     <width>511</width>
+     <height>901</height>
     </rect>
    </property>
    <layout class="QVBoxLayout" name="verticalLayout">
@@ -41,34 +41,20 @@
     </item>
    </layout>
   </widget>
-  <widget class="QWidget" name="horizontalLayoutWidget">
+  <widget class="QWidget" name="verticalLayoutWidget_2">
    <property name="geometry">
     <rect>
-     <x>0</x>
-     <y>750</y>
-     <width>503</width>
-     <height>31</height>
+     <x>530</x>
+     <y>10</y>
+     <width>91</width>
+     <height>170</height>
     </rect>
    </property>
-   <layout class="QHBoxLayout" name="horizontalLayout">
+   <layout class="QVBoxLayout" name="verticalLayout_2">
     <item>
      <widget class="QPushButton" name="pushButton">
       <property name="text">
        <string>Reflash</string>
-      </property>
-     </widget>
-    </item>
-    <item>
-     <widget class="QPushButton" name="pushButton_2">
-      <property name="text">
-       <string>Unlock</string>
-      </property>
-     </widget>
-    </item>
-    <item>
-     <widget class="QPushButton" name="Btn_return">
-      <property name="text">
-       <string>return</string>
       </property>
      </widget>
     </item>
@@ -80,24 +66,19 @@
      </widget>
     </item>
     <item>
-     <widget class="QLabel" name="label">
+     <widget class="QPushButton" name="Btn_return">
       <property name="text">
-       <string/>
+       <string>return</string>
       </property>
      </widget>
     </item>
-   </layout>
-  </widget>
-  <widget class="QWidget" name="horizontalLayoutWidget_2">
-   <property name="geometry">
-    <rect>
-     <x>0</x>
-     <y>790</y>
-     <width>501</width>
-     <height>25</height>
-    </rect>
-   </property>
-   <layout class="QHBoxLayout" name="horizontalLayout_2">
+    <item>
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="text">
+       <string>Unlock</string>
+      </property>
+     </widget>
+    </item>
     <item>
      <widget class="QPushButton" name="swip_left">
       <property name="text">
@@ -112,6 +93,28 @@
       </property>
      </widget>
     </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget_3">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>220</y>
+     <width>91</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_3">
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_3">
+      <item>
+       <widget class="QLineEdit" name="lineEdit_2"/>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit"/>
+      </item>
+     </layout>
+    </item>
     <item>
      <widget class="QPushButton" name="tap">
       <property name="text">
@@ -119,11 +122,71 @@
       </property>
      </widget>
     </item>
+   </layout>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>740</y>
+     <width>81</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget_4">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>310</y>
+     <width>91</width>
+     <height>151</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_4">
     <item>
-     <widget class="QLineEdit" name="lineEdit_2"/>
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string>X1 -Y1</string>
+      </property>
+     </widget>
     </item>
     <item>
-     <widget class="QLineEdit" name="lineEdit"/>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QLineEdit" name="X1"/>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="Y1"/>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_3">
+      <property name="text">
+       <string>X2 - Y2</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <widget class="QLineEdit" name="X2"/>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="Y2"/>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QPushButton" name="Swip">
+      <property name="text">
+       <string>Swip</string>
+      </property>
+     </widget>
     </item>
    </layout>
   </widget>

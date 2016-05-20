@@ -16,6 +16,10 @@ int main(int argc, char *argv[])
     view->setWindowTitle("Graphics View");
     view->show();
 #endif
+    MyThread m_thread;
 
+    m_thread.start();
+    //m_thread.wait();
+    //connect(m_thread,SIGNAL(mySignal()),w,SLOT(mySlot()));
     return a.exec();
 }

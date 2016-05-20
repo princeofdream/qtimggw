@@ -34,8 +34,6 @@ private slots:
 
     void on_pushButton_2_clicked();
 
-    void on_Btn_home_clicked();
-
     void on_Btn_return_clicked();
 
     void get_android_screen();
@@ -48,11 +46,27 @@ private slots:
 
     void on_swip_right_clicked();
 
+    void on_Swip_clicked();
+
+    int get_current_point();
+
+    void on_btn_home_clicked();
+
+public slots:
+    void mySlot();
 private:
     QThread thr_label;
     Ui::Widget *ui;
 };
 
+class MyThread : public QThread
+{
+     Q_OBJECT
+signals:
+    void mmSignal();
+protected:
+     void run();
+};
 
 
 #endif // WIDGET_H
